@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #000000;
+    --color-background-light: #f8f9fc;
+    --color-background-dark: #161121;
+    --font-display: "Inter", "sans-serif";
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-full: 9999px;
+    --radius: 0.25rem;
+}
