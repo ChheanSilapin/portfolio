@@ -87,31 +87,33 @@ export default function Project() {
                     </div>
 
                     {/* Project Card 3 */}
-                    {/* <div className="group flex flex-col overflow-hidden rounded-xl border border-slate-100 bg-white transition-all hover:border-primary/20 hover:shadow-xl">
-                        <div className="aspect-video w-full overflow-hidden bg-slate-100">
-                            <div className="h-full w-full bg-gradient-to-br from-slate-200 to-slate-50 transition-transform group-hover:scale-105"></div>
+                    <div className="group flex flex-col overflow-hidden rounded-xl border border-slate-100 bg-white transition-all hover:border-primary/20 hover:shadow-xl">
+                        <div className="aspect-video w-full overflow-hidden bg-slate-900">
+                            <iframe
+                                src="https://everycarmen.site/"
+                                className="h-[900px] w-[1440px] origin-top-left pointer-events-none"
+                                style={{ transform: "scale(0.22)" }}
+                                loading="lazy"
+                            />
                         </div>
                         <div className="flex flex-1 flex-col p-6">
                             <div className="mb-4 flex flex-wrap gap-2">
-                                <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-600">TypeScript</span>
-                                <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-600">Framer</span>
+                                <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-600">WordPress</span>
+                                <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-600">Namecheap</span>
+                                <span className="rounded-full bg-slate-100 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-slate-600">SEO & Blog</span>
                             </div>
-                            <h3 className="mb-2 text-xl font-bold text-slate-900">Vibe Studio</h3>
+                            <h3 className="mb-2 text-xl font-bold text-slate-900">EveryCarmen</h3>
                             <p className="mb-6 flex-1 text-sm leading-relaxed text-slate-600">
-                                Portfolio builder for creatives with drag-and-drop components and custom animations.
+                                An automotive content & car repair blog delivering maintenance guides, vehicle tips, and auto news, built on WordPress and hosted on Namecheap.
                             </p>
-                            <div className="flex gap-3">
-                                <button className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-slate-900 py-2 text-xs font-bold text-white transition-colors hover:bg-slate-800">
+                            <div className="flex flex-wrap gap-3">
+                                <a href="https://everycarmen.site/" target="_blank" rel="noopener noreferrer" className="flex flex-1 items-center justify-center gap-2 rounded-lg bg-slate-900 py-2 text-xs font-bold text-white transition-colors hover:bg-slate-800">
                                     <span className="material-symbols-outlined text-sm">open_in_new</span>
                                     Live
-                                </button>
-                                <button className="flex flex-1 items-center justify-center gap-2 rounded-lg border border-slate-200 py-2 text-xs font-bold text-slate-700 transition-colors hover:bg-slate-50">
-                                    <span className="material-symbols-outlined text-sm">code</span>
-                                    GitHub
-                                </button>
+                                </a>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </section>
